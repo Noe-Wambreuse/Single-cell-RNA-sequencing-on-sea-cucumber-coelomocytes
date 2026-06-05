@@ -1,0 +1,33 @@
+[2025-05-16 15:50:58.545] [alevinLog] [info] Found 167199 transcripts(+0 decoys, +0 short and +0 duplicate names in the index)
+[2025-05-16 15:50:58.671] [alevinLog] [info] Filled with 167199 txp to gene entries 
+[2025-05-16 15:50:58.692] [alevinLog] [info] Found all transcripts to gene mappings
+[2025-05-16 15:50:58.711] [alevinLog] [info] Processing barcodes files (if Present) 
+
+ 
+[2025-05-16 15:54:25.082] [alevinLog] [info] Done barcode density calculation.
+[2025-05-16 15:54:25.082] [alevinLog] [info] # Barcodes Used: [32m145945079[0m / [31m145945079[0m.
+[2025-05-16 15:54:25.484] [alevinLog] [info] Total [32m3356[0m(has [32m1000[0m low confidence) barcodes
+[2025-05-16 15:54:26.226] [alevinLog] [info] Done True Barcode Sampling
+[2025-05-16 15:54:26.436] [alevinLog] [warning] Total 62.444% reads will be thrown away because of noisy Cellular barcodes.
+[2025-05-16 15:54:26.581] [alevinLog] [info] Done populating Z matrix
+[2025-05-16 15:54:26.590] [alevinLog] [info] Total 23001 CB got sequence corrected
+[2025-05-16 15:54:26.593] [alevinLog] [info] Done indexing Barcodes
+[2025-05-16 15:54:26.593] [alevinLog] [info] Total Unique barcodes found: 1339335
+[2025-05-16 15:54:26.593] [alevinLog] [info] Used Barcodes except Whitelist: 22873
+[2025-05-16 15:54:26.624] [alevinLog] [info] Done with Barcode Processing; Moving to Quantify
+
+[2025-05-16 15:54:26.624] [alevinLog] [info] parsing read library format
+[2025-05-16 16:01:13.351] [alevinLog] [info] Starting optimizer
+
+
+[2025-05-16 16:01:13.458] [alevinLog] [warning] mrna file not provided; using is 1 less feature for whitelisting
+[2025-05-16 16:01:13.458] [alevinLog] [warning] rrna file not provided; using is 1 less feature for whitelisting
+[2025-05-16 16:01:47.028] [alevinLog] [info] Total 3567208.00 UMI after deduplicating.
+[2025-05-16 16:01:47.028] [alevinLog] [info] Total 1703269 BiDirected Edges.
+[2025-05-16 16:01:47.028] [alevinLog] [info] Total 377758 UniDirected Edges.
+[2025-05-16 16:01:47.045] [alevinLog] [info] Clearing EqMap; Might take some time.
+[2025-05-16 16:01:47.968] [alevinLog] [info] Starting white listing of 3355 cells
+[2025-05-16 16:01:47.968] [alevinLog] [info] Starting to make feature Matrix
+[2025-05-16 16:01:47.972] [alevinLog] [info] Done making feature Matrix
+[2025-05-16 16:01:48.680] [alevinLog] [info] Finished white listing
+[2025-05-16 16:01:49.400] [alevinLog] [info] Finished optimizer
